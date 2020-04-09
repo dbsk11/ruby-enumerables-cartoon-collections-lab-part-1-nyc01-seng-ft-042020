@@ -10,7 +10,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |dwarves, index|
-    puts "#{index}. #{drarves}.capitalize"
+    puts "#{index}. #{dwarves}.capitalize"
   end
 end
   # Use `each_with_index` to enumerate over the provided array
